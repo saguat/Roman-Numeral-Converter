@@ -30,6 +30,8 @@ const convertToRoman = () => {
     return "Please enter a number less than or equal to 3999";
   }
 
+  let commit = "";
+
   let result = "";
 
   for (let i = 0; i < romanNumerals.length; i++) {
